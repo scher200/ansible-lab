@@ -45,9 +45,9 @@ $ docker-compose scale server=3
 ```
 
 You can check now, using `docker ps`, that we've four containers running: 1 Ansible container + 3 server containers, named:
-- ansibledocker_server_1
-- ansibledocker_server_2
-- ansibledocker_server_3
+- ansible-lab_server_1
+- ansible-lab_server_2
+- ansible-lab_server_3
 
 ### Test servers connection
 
