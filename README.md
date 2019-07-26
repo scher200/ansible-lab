@@ -106,9 +106,3 @@ All the three requests above should return a `Hello World` message, meaning that
 ## Success
 
 You now have fully setup 3 Docker containers using Ansible and running your project. :)
-
-## Observations:
-
-- The objective of this project is not teach how to provision Docker containers using Ansible. As stated by Michael DeHaan, creator of Ansible, Docker containers typically have a single responsibility and, thus, much less configuration. So, the overhead of having a complete Ansible configuration to provision them are unnecessary.
-
-- This project uses Docker for convenience. This way, we don't have to bother about starting Amazon servers only for testing purposes. However, since the containers used here behave exactly like a plain machine with SSHD installed, the very same setup should work on any cloud or bare-metal architecture.
