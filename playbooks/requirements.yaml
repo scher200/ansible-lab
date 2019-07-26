@@ -1,0 +1,7 @@
+---
+- src: "ANXS.git"
+  version: "v1.0.1"
+- src: "geerlingguy.git"
+  version: "2.0.5"
+- src: "geerlingguy.nodejs"
+  version: "5.0.0"
