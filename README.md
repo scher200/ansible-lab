@@ -90,9 +90,9 @@ After the servers configured, you can now check that all the 3 servers are confi
 So:
 
 ```bash
-$ curl -XGET ansibledocker_server_1:5000
-$ curl -XGET ansibledocker_server_2:5000
-$ curl -XGET ansibledocker_server_3:5000
+$ curl -XGET ansible-lab_server_1:5000
+$ curl -XGET ansible-lab_server_2:5000
+$ curl -XGET ansible-lab_server_3:5000
 ```
 
 All the three requests above should return a `Hello World` message, meaning that the Node server is up and running.
